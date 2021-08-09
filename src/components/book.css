@@ -1,0 +1,66 @@
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(53, 153, 98, 0.637);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s;
+}
+
+#portfolio
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content {
+  font-size: 1.25rem;
+  color: white;
+}
+#portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
+  opacity: 1;
+}
+
+#portfolio .portfolio-item {
+  max-width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+#portfolio .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+  font-size: 1.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  margin-bottom: 0;
+}
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#portfolio .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+.text-muted {
+  --bs-text-opacity: 1;
+  color: #6c757d !important;
+}
