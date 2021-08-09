@@ -7,4 +7,4 @@ It's first practice for Context API. Books and themes pass through component tre
 ## Soon
 
 ** All data will storage at LocalStorage.
-** 'Add Book' and 'Edit Book' panels will add project.
+** **'Add Book'** and **'Edit Book'** panels will add project.
